@@ -9,7 +9,6 @@ windows_package "install notepad" do
   installer_type :custom
   options: '/s'
   action :install
- do
- 
+ end
   
   
