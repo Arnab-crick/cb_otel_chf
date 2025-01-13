@@ -9,6 +9,6 @@ when 'rhel'
 when 'windows'
   include_recipe['cb_otel_chf::windows']
 else
-raise Argumenterror, "not supported platform #{node['platform_family']}.}
+raise Argumenterror, "not supported platform #{node['platform_family']}."
 end
   
